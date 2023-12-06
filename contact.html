@@ -35,47 +35,63 @@
     </nav>
 
     <div class="jumbotron d-flex flex-column justify-content-center align-items-center">
-        <h1>Nosotros</h1>
+        <h1>Contacto</h1>
     </div>
 
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
             </ol>
         </nav>
         <hr>
-        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quod error totam sint
-            quibusdam animi
-            libero nobis sit eum, aliquam porro ab beatae repellendus saepe cupiditate at et, iusto earum?
-            In corporis asperiores aperiam dolore sequi modi eum blanditiis enim et sint unde pariatur assumenda vero
-            dicta ipsa repudiandae, explicabo hic accusantium. Doloribus ut repellendus ducimus veritatis modi. Itaque,
-            facere.
-            Quam culpa repudiandae quis sit repellendus mollitia fugiat, exercitationem accusamus esse eius dolor vero
-            facere tenetur nemo vitae. Quo, suscipit dolores quisquam harum in voluptatem sapiente rerum doloribus
-            veniam quaerat.
-            Corporis ipsam maxime repellendus est natus nostrum sit magnam quas. Accusantium porro labore fuga
-            voluptates, nesciunt ut deleniti pariatur, sed doloribus earum aliquam esse, iste natus inventore mollitia
-            nulla nisi!
-            Non consequuntur quaerat reiciendis possimus. Neque, eum. Minus tenetur molestias ad. Itaque vitae nisi eum
-            et expedita repudiandae excepturi recusandae, dolorum ut, repellat quod inventore aliquam qui? Quisquam,
-            consectetur officia?
-            Similique iste molestias explicabo provident ipsam, debitis unde corrupti, nisi corporis eum quam cum, ab
-            voluptatem fugit totam exercitationem veritatis! Aut quaerat ab, laudantium inventore nihil nostrum
-            doloremque numquam nobis?
-            Architecto voluptate eaque fugiat eius optio magni earum maxime dicta error quibusdam sed quod dolore
-            reiciendis sapiente voluptatibus eum sint, nesciunt cum accusantium ipsum. Necessitatibus deserunt provident
-            amet dicta tempore?
-            Aut quod exercitationem hic obcaecati possimus odio dolorum, perferendis alias. Neque sed beatae fugit in
-            odio esse, iusto quia adipisci labore ducimus nobis delectus libero quaerat architecto laborum! Eligendi,
-            sapiente.
-            Neque sint aliquam architecto eum rem, consequuntur ex explicabo dolorem nemo sunt? Blanditiis eum culpa
-            quis, voluptates, aliquid asperiores distinctio saepe architecto totam nisi temporibus perferendis commodi
-            ratione laborum enim?
-            Rem libero consequatur eveniet quis laborum esse molestias incidunt corrupti ipsam voluptatibus, laboriosam
-            quasi temporibus nobis veniam est voluptates similique ratione aperiam quibusdam quisquam reiciendis dolore
-            natus obcaecati quidem. Nisi?</p>
+
+        <form>
+            <div class="row">
+                <div class="form-group col-sm-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su napellido">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
+            </div>
+            <div class="row">
+                <div class="form-group col-sm-6">
+                    <label for="address">Dirección</label>
+                    <input type="text" class="form-control" id="address" placeholder="Ingrese su dirección">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="city">Ciudad</label>
+                    <select id="city" class="form-control">
+                        <option selected>Bogotá</option>
+                        <option>Cali</option>
+                        <option>Medellín</option>
+                        <option>Barranquilla</option>
+                        <option>Armenia</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Comentario</label>
+                    <textarea id="comentario" class="form-control" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">Quiero suscribirme a la lista de
+                            correos</label>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
         <hr>
     </div>
 

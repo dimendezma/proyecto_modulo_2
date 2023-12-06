@@ -1,3 +1,9 @@
+.my_navbar {
+    padding: 0px 50px 0px 50px;
+    height: 50px;
+}
+
+
 .jumbotron {
     background-color: #efd9fd;
     color: black;
@@ -20,9 +26,4 @@ footer {
 
 .card-serv div {
     margin: 20px 20px 0px 20px;
-}
-
-.btn {
-    width: 100%;
-    margin-bottom: 20px;
 }
