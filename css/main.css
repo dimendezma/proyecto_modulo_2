@@ -19,11 +19,19 @@ footer {
 }
 
 .card-serv {
-    flex: 1 150px;
+    flex: 1 200px;
+    padding: 2px 5px 2px 5px;
     margin: 10px;
-    background-color: #e6e6e6;
+
+
 }
 
-.card-serv div {
-    margin: 20px 20px 0px 20px;
+.img-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-mas {
+    width: 100%;
 }
